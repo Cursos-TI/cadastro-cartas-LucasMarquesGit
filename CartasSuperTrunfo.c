@@ -21,49 +21,49 @@ int main() {
 
     // Entrada de dados da Carta 1
     printf("Cadastro da Carta 1:\n");
-    printf("Digite o Estado (A-H): ");
+    printf("amazonas");
     scanf(" %c", &estado1);
 
-    printf("Digite o Código da Carta (ex: A01): ");
+    printf("A02");
     scanf("%s", codigo1);
 
-    printf("Digite o Nome da Cidade: ");
-    scanf(" %[^\n]", nomeCidade1); // permite ler nomes com espaços
+    printf("Mata");
+    scanf(" %[^\n]", nomeCidade1); 
 
-    printf("Digite a População: ");
+    printf("1.000.000.000");
     scanf("%d", &populacao1);
 
-    printf("Digite a Área (em km²): ");
+    printf("298.546");
     scanf("%f", &area1);
 
-    printf("Digite o PIB (em bilhões de reais): ");
+    printf("2.000.000.000.000");
     scanf("%f", &pib1);
 
-    printf("Digite o Número de Pontos Turísticos: ");
+    printf("50");
     scanf("%d", &pontosTuristicos1);
 
 
     // Entrada de dados da Carta 2
     printf("\nCadastro da Carta 2:\n");
-    printf("Digite o Estado (A-H): ");
+    printf("Alagoas");
     scanf(" %c", &estado2);
 
-    printf("Digite o Código da Carta (ex: B02): ");
+    printf("B03");
     scanf("%s", codigo2);
 
-    printf("Digite o Nome da Cidade: ");
+    printf("alagoinha");
     scanf(" %[^\n]", nomeCidade2);
 
-    printf("Digite a População: ");
+    printf("1.500.000.000");
     scanf("%d", &populacao2);
 
-    printf("Digite a Área (em km²): ");
+    printf("577.541");
     scanf("%f", &area2);
 
-    printf("Digite o PIB (em bilhões de reais): ");
+    printf("4.000.000.000.000");
     scanf("%f", &pib2);
 
-    printf("Digite o Número de Pontos Turísticos: ");
+    printf("51");
     scanf("%d", &pontosTuristicos2);
 
 
